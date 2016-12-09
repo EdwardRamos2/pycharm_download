@@ -8,6 +8,7 @@ print('Download + Install [PyCharm 2016.3] - Version 0.1.0')
 def download_arquivos():
     print('[1] Direct download: ')
     print('[2] Custom download: ')
+    print('[3] Install')
     opcao = input('option: >> ')
     if opcao == '1':
         #import urllib.request
