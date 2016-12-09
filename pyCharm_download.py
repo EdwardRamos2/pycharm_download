@@ -26,7 +26,6 @@ def download_arquivos():
         with urllib.request.urlopen(url) as response, open(file_name, 'wb') as out_file:
             data = response.read() # a `bytes` object
             out_file.write(data)
-
     if opcao == '3':
         print('Archive Extract into /tmp')
         os.system('tar xvzf pycharm-community*.tar.gz -C /tmp/')
