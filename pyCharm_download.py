@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 #Autor: Edward Ramos  <edward.ramos@linuxmail.org>
-#Date: 12/08/2016
+#Date: 12/08/2016 U.S.A
 
 import urllib.request
 import os , sys
